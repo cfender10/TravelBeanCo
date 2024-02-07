@@ -1,0 +1,97 @@
+body{
+  margin: 6em;
+  background-color: RosyBrown;
+  color: SkyBlue;
+  font-family: 'Dancing Script', cursive;
+  
+}
+p{font-family: 'Ibarra Real Nova', serif;
+  font-size: 17px;
+  background-color: FloralWhite;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: SkyBlue;
+  animation: titlechange 5s
+    infinite;
+}
+
+h2{
+  font-size:30px;
+  background-color: FloralWhite;
+}
+
+@keyframes titlechange{
+  0%{background-color: Azure;}
+  20%{background-color:Ivory;}
+  40%{background-color:LavenderBlush;}
+  60%{background-color:HoneyDew;}
+  80%{background-color:MintCream;}
+  100%{background-color:WhiteSmoke;}
+}
+
+img{
+  width: 600px;
+  
+}
+/*Boba*/
+.boba {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9cb.png) 36 36, auto;
+}
+
+/*Plane*/
+.plane {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2708.png) 36 36, auto;
+}
+
+/*Globe*/
+.globe {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30d.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+  padding: 1rem;
+}
+
+figure{
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  height: 25px;
+  background-color: SeaShell;
+  color: RosyBrown;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} 
+button{
+  background-color: FloralWhite;
+  color: RosyBrown;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+}
